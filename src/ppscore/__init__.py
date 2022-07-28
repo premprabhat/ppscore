@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from pkg_resources import get_distribution, DistributionNotFound
 
+__version__ = "1.2.1"
+
 try:
     # Change here if project is renamed and does not equal the package name
     dist_name = __name__
